@@ -1,0 +1,96 @@
+body{
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUPEhIVFRUVFRUVFRUVFRcVFRUVFRUWFhUVFRUYHSggGB0lHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NDg4OGisZExktKysrKysrKysrKys3LS0tKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBQf/xAAtEAEBAQEAAAIHBgcAAAAAAAAAARECMUEHEkNTgqPSBhMWVHGBAwQFMjM0Uf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD4lUqASSApIEsKBJIEUQCKBJQgLEcQBFYAWFAMSqAIjAQKAJIEKQCBAJJAm+Iy1wDNBoBEEEkgKSBLUQUqxYQRihAJrFgBFAsBw4DKpWAyGkDK0jAAawAEagZRAJJAEQCb4Yb4Bmg0AikCIIJIgMMRgKFSoCZBjUAGFAFhMBnDhxYDOEigzYsawWAziI0ADQADQAJIAkgSSBNcsN8AzQaARSBIoElDATUBgIxHAMQakBESNYAlSw4CxYUDKNggAY0KAwNCgyDgoCg4ACIAJIECALXLDfIM9JVAkiAMSBYQ1ADUgMoNYlTgKFSNYB5i0aoBxTkw6AsGOlZlBnBY0AFjLpKz0DOKxaugZrLVgwGamrGbQFBALAUASQB04jDfFBio9AEQgKRAGJA0cZlagEygwGkoQXJWkEsUaBSplrQGM1u1mgyrVapQFjNaFAaKgAoNFAJIAkASIBNcMt8AxUqoCSIJJASIQRiQGU6CDUajI0HTQpUBh0SnAKWC0FQkCBo0GRpFAWg0ABVVoAFAEkARoBN8MOnAOdSqBakgIRAxaCBSQGVqMwwGjGSBwhA1V6wq0DKmToI6NAK9KqoBRprIFmpAAaAQpFBaEgQKBNc1lrgGaDQCIIIhAUkBhZOgWpWJSDWlk6BlMZQNIadBEAGkzq0DaANBplavWBaNQBDSASQBJIEggLXDDfAM0GgEkgKSAggCkgKSAnWdIEskCtCAoICggS0VAkgCSGgdCQIEAgQCRAJvhlrkGaEgSKAFIEigSSBJIEUgRCAoIDqSBIICKkCQQJJAkkD1vs5/Quv5vvrjnucTjn1rbL1fHJJJ4veno/6/MfJ6+pIFfR/17/5N+pm/YDrw+/vn7G+XxJAvwD17++XsevP4j+AOtz7++Of4es/X+7wCA30f9e//AO+xvl8Tpx6POs/2Z+/8K/UUD//Z');
+    background-size: cover;
+    background-position: fixed;
+}
+
+.container{
+    z-index: 1000;
+}
+.card{
+    background-color: transparent;
+    
+}
+.edtClass{
+    background-color: orangered;
+    color: white;
+    margin-left: 10px;
+    border-radius: 100px;
+    width: 90px;
+    transition-duration: 0.4s;
+    font-size: 14px;
+    float: right;
+    font-weight: bold;
+}
+
+.edtClass:hover {
+    background-color: transparent !important; /* Green */
+   color: orangered; 
+  }
+  .dltBtn:hover {
+    background-color:orangered !important; /* Green */
+   color: white; 
+  }
+  .h1{
+      font-family: 'Rowdies', cursive;
+  }
+
+
+.li {
+    list-style: none !important;
+    color: white;
+    margin-top: 6px;
+    text-align: center;
+    justify-content: center;
+   
+  
+   
+}
+.dltBtn{
+    margin-left: 5px !important;
+    border-radius: 100px;
+    width: 90px;
+    background-color: transparent!important; /* Green */
+    color: orangered; 
+    font-size: 14px;
+    outline: none;
+    float: right;
+    font-weight: bold;
+    transition: 0.4s;
+   
+}
+.buttons{
+    margin-left: 35px;
+}
+ol{
+   
+    padding: 20px;
+}
+
+@media(max-width:786px){
+    body{
+        overflow-x: hidden;
+    }
+   .input{
+       width: 300px !important;
+       padding: 6px !important;
+       border-radius: 100px !important;
+   }
+.buttons{
+      margin: 0 auto !important;
+      
+}
+.edtClass{
+    float: right;
+}
+.widthCard{
+ 
+    width: 100% !important;
+}
+.card-bodt{
+    width: 75% !important;
+}
+h1{
+    font-size: 40px !important;
+}
+}
