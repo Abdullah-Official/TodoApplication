@@ -82,6 +82,11 @@ ol{
 }
 .edtClass{
     float: right;
+    
+    margin-left: 0px;
+}
+.dltBtn{
+    margin-left: 20px !important;
 }
 .widthCard{
  
